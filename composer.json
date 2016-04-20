@@ -1,0 +1,23 @@
+{
+  "name": "chornij/yii2-slack",
+  "description": "Simple Slack notifier",
+  "type": "yii2-extension",
+  "support": {
+    "issues": "https://github.com/chornij/yii2-slack/issues",
+    "source": "https://github.com/chornij/yii2-slack"
+  },
+  "keywords": [
+    "yii2",
+    "extension",
+    "slack"
+  ],
+  "license": "MIT",
+  "require": {
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "chornij\\slack\\": ""
+    }
+  }
+}
