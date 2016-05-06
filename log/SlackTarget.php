@@ -55,7 +55,7 @@ class SlackTarget extends Target
             if (\Yii::$app->has('request') && \Yii::$app->request instanceof Request) {
                 $attachment['fields'][] = [
                     'title' => 'Url',
-                    'value' => \Yii::$app->request->url,
+                    'value' => \Yii::$app->request->absoluteUrl,
                     'short' => true,
                 ];
             }
